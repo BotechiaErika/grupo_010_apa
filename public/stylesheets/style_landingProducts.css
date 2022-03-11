@@ -108,7 +108,6 @@
 .r-link {
     --uirLinkDisplay: var(--rLinkDisplay, inline-block);
     --uirLinkTextColor: var(--rLinkTextColor);
-    --uirLinkTextDecoration: var( --rLinkTextDecoration, none);
     display: var(--uirLinkDisplay) !important;
     color: var(--uirLinkTextColor) !important;
     text-decoration: var(--uirLinkTextDecoration) !important;
@@ -231,7 +230,7 @@ DEMO
     font-family: 'Amaranth', sans-serif;
     line-height: 8rem;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 .news__link::after {

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-bodyPage{
-=======
 .bodyPage{
->>>>>>> 9119b16 (errores con correeccion en proximos commits)
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(12, 1fr);
@@ -21,12 +17,6 @@ bodyPage{
 .div2 {
   grid-area: 2 / 1 / 12 / 6;
   height: auto;
-<<<<<<< HEAD
-  background: url("https://live.staticflickr.com/65535/51918696648_024e99cf00_k.jpg");
-  background-size: cover;
-}
-
-=======
   background: url("../images/svg/bg-01.svg");
   repeat: background-repeat;
 }
@@ -35,7 +25,6 @@ bodyPage{
   background: url("../images/svg/bg-01.svg");
   repeat: background-repeat;
 }
->>>>>>> 9119b16 (errores con correeccion en proximos commits)
 
 .div3 {
   grid-area: 12 / 1 / 13 / 6;
@@ -155,14 +144,10 @@ bodyPage{
 
 bg-02{
   background: url("../images/svg/bg-02.svg");
-<<<<<<< HEAD
-  background-repeat: no-repeat;
-=======
   background-repeat: repeat;
 }
 
 .footer-link{
   text-decoration: none;
   color: black;
->>>>>>> 9119b16 (errores con correeccion en proximos commits)
 }
