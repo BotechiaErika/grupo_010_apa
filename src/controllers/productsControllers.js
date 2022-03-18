@@ -14,11 +14,15 @@ let controller = {
             comunaParaghy: "La Comuna 1 está integrada por los 	barrios de  Retiro, San Nicolás, Puerto Madero, San Telmo, Montserrat y Constitución."
         })
     },
-    detalleProductos: (req, res) => {
+    comunas: (req, res) => {
         const cmn = req.params.cmn
         res.render('products/productosComuna', {
             title: 'Comuna ' + cmn
         })
+    },
+    detallesL: (req, res) => {
+        const idLD = req.res.idLD;
+        res.render('products/detailsProduct', { title: idLD })
     }
 }
 module.exports = controller
