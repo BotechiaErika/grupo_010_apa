@@ -16,7 +16,7 @@ let controller = {
     },
     detalleProductos: (req, res) => {
         const cmn = req.params.cmn
-        res.render('products/comunas', {
+        res.render('products/productosComuna', {
             title: 'Comuna ' + cmn
         })
     }
