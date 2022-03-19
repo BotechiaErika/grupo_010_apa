@@ -3,9 +3,9 @@ const express = require('express');
 const router = express.Router();
 
 // ROUTER PARA COLLECCION PRODUCTS
-router.get('/', productsControllers.landingProductos)
-router.get('/comunas/:cmn', productsControllers.comunas)
-router.get('/detalles/:idLD', productsControllers.detallesL)
+router.get('/', productsControllers.landingComunas)
+router.get('/comunas/:comunaID', productsControllers.comunas)
+router.get('/cupons/:idLD', productsControllers.detallesL)
 module.exports = router
 
 // RUTAS PARAMETRIZADAS
