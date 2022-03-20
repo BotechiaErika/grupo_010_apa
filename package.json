@@ -1,20 +1,20 @@
 {
-  "name": "grupo-010-apa",
-  "version": "0.0.0",
-  "author": "mendoncabotechiaerikaluisa@gmail.com && suarezrocio",
-  "private": true,
-  "scripts": {
-    "start": "nodemon ./bin/www"
-  },
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "nodemon": "^2.0.15",
-    "package-lock": "^1.0.5",
-    "package-lock.json": "^1.0.0"
-  }
+    "name": "grupo-010-apa",
+    "version": "0.0.0",
+    "author": "mendoncabotechiaerikaluisa@gmail.com && suarezrocio",
+    "private": true,
+    "scripts": {
+        "dev": "nodemon ./bin/www"
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "ejs": "~2.6.1",
+        "express": "~4.16.1",
+        "http-errors": "~1.6.3",
+        "morgan": "~1.9.1",
+        "nodemon": "^2.0.15",
+        "package-lock": "^1.0.5",
+        "package-lock.json": "^1.0.0"
+    }
 }
