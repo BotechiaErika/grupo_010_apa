@@ -5,12 +5,11 @@ let controller = {
     landingUser: (req, res) => {
         res.render('users/landingpageUser', { title: 'HOME' });
     },
-    crearCuenta: (req, res) => {
-        res.render('users/cadastroUsuarios', { title: 'CREAR CUENTA' });
+    iniciarU: (req, res) => {
+        res.render('users/login', { title: 'Ingreso al CLUB!' });
     },
-    iniciarSeccion: (req, res) => {
-        res.render('users/login', { title: 'INICIAR SECCION' });
+    iniciarE: (req, res) => {
+        res.render('empresas/login', { title: 'Login EMPRESA!' });
     }
 }
-
 module.exports = controller
