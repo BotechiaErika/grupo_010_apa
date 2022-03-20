@@ -2,7 +2,7 @@
     "name": "grupo-010-apa",
     "version": "0.0.0",
     "author": "mendoncabotechiaerikaluisa@gmail.com && suarezrocio",
-    "private": true,
+    "main": "./src/app.js",
     "scripts": {
         "binmoon": "nodemon ./bin/www",
         "test": "npm run -test",

@@ -3,9 +3,7 @@ const express = require('express');
 const path = require('path');
 
 
-app.listen(process.env.PORT || 9616, () => {
-    console.log("CORRIENDO PORT 9694");
-});
+
 // ************ express() - (don't touch) ************
 const app = express();
 
@@ -16,12 +14,12 @@ app.set('views', path.join(__dirname, '/views'));
 
 // ************ Route System require and use() ************
 const mainRouter = require('./routes/mainRouters.js');
-const usuariosRouter = require('./routes/usuariosRouters.js');
+// const usuariosRouter = require('./routes/usuariosRouters.js');
 //const productosRouter = require('./routes/productosRouters.js');
 //const empresasRouter = require('./routes/empresasRouters.js')
 
 app.use('/', mainRouter);
-app.use('/usuarios', usuariosRouter);
+//app.use('/usuarios', usuariosRouter);
 //app.use('/productos', productosRouter);
 //app.use('/empresas', empresasRouter);
 //app.use('/locales', productosRouter);
@@ -31,3 +29,6 @@ app.use(express.static(path.join(__dirname, './../public')));
 
 
 module.exports = app
+app.listen(process.env.PORT || 9694, () => {
+    console.log("CORRIENDO PORT 9694");
+});
