@@ -4,6 +4,12 @@ let controller = {
     },
     buscar: (req, res) => {
         res.render('apaClub/buscarProducto', { title: 'BUSCAR' });
+    },
+    validarU: (req, res) => {
+        res.render('apaClub/validando', { title: 'Aguarde' });
+    },
+    miCuenta: (req, res) => {
+        res.render('apaClub/apaSocio', { title: 'Area del Socio' });
     }
 }
 module.exports = controller
