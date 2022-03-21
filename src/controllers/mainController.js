@@ -3,7 +3,7 @@ let controller = {
         res.render('index', { title: 'APA' });
     },
     landingUser: (req, res) => {
-        res.render('users/landingpageUser', { title: 'HOME' });
+        res.render('main/landingpageUser', { title: 'HOME' });
     },
     buscar: (req, res) => {
         res.render('products/buscarProducto', { title: 'BUSCAR' });
