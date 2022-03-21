@@ -14,8 +14,8 @@ let controller = {
         })
     },
     detallesL: (req, res) => {
-        const idLD = req.res.idL;
-        res.render('products/detailsProduct', { title: idL })
+        const idL = req.res.idL;
+        res.render('products/detallesNOClientes', { title: idL })
     },
 }
 module.exports = controller
