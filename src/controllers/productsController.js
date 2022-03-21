@@ -14,8 +14,10 @@ let controller = {
         })
     },
     detallesL: (req, res) => {
-        const idL = req.res.idL;
-        res.render('products/detallesNOClientes', { title: idL })
-    },
+        const idL = req.res.idL
+        res.render('products/detallesNOClientes', {
+            title: 'Local ' + idL
+        })
+    }
 }
 module.exports = controller
