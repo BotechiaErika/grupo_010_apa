@@ -5,9 +5,6 @@ let controller = {
     landingUser: (req, res) => {
         res.render('main/landingpageUser', { title: 'HOME' });
     },
-    iniciarU: (req, res) => {
-        res.render('users/login', { title: 'Ingreso al CLUB!' });
-    },
     iniciarE: (req, res) => {
         res.render('empresas/login', { title: 'Login EMPRESA!' });
     }

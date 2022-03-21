@@ -14,11 +14,13 @@ app.set('views', path.join(__dirname, '/views'));
 
 // ************ Route System require and use() ************
 const mainRouter = require('./routes/mainRoutes.js')
+const apaClubRouter = require('./routes/apaClubRoutes.js')
     // const usuariosRouter = require('./routes/usuariosRouters.js');
 const productsRouter = require('./routes/productsRoutes.js')
     //const empresasRouter = require('./routes/empresasRouters.js')
 
 app.use('/', mainRouter);
+app.use('/apa-club', apaClubRouter);
 //app.use('/usuarios', usuariosRouter);
 app.use('/productos', productsRouter);
 //app.use('/empresas', empresasRouter);
