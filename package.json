@@ -4,10 +4,11 @@
     "author": "mendoncabotechiaerikaluisa@gmail.com && suarezrocio",
     "main": "./src/app.js",
     "scripts": {
-        "binmoon": "nodemon ./bin/www",
+        "app": "nodemon ./bin/www",
         "test": "npm run -test",
-        "dev": "nodemon app.js",
-        "start": "node app.js"
+        "dev": "nodemon ./src/app.js",
+        "start": "node ./src/app.js",
+        "app": "nodemon ./src/app.js"
     },
     "dependencies": {
         "cookie-parser": "~1.4.4",
