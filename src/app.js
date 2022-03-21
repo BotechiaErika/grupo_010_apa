@@ -13,14 +13,14 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '/views'));
 
 // ************ Route System require and use() ************
-const mainRouter = require('./routes/mainRoutes.js');
-// const usuariosRouter = require('./routes/usuariosRouters.js');
-//const productosRouter = require('./routes/productosRouters.js');
-//const empresasRouter = require('./routes/empresasRouters.js')
+const mainRouter = require('./routes/mainRoutes.js')
+    // const usuariosRouter = require('./routes/usuariosRouters.js');
+const productsRouter = require('./routes/productsRoutes.js')
+    //const empresasRouter = require('./routes/empresasRouters.js')
 
 app.use('/', mainRouter);
 //app.use('/usuarios', usuariosRouter);
-//app.use('/productos', productosRouter);
+app.use('/productos', productsRouter);
 //app.use('/empresas', empresasRouter);
 //app.use('/locales', productosRouter);
 

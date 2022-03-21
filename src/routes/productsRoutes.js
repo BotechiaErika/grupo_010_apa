@@ -1,6 +1,10 @@
-const mainController = require('../controllers/productsController.js')
+const productsController = require('../controllers/productsController.js')
 const express = require('express');
 const router = express.Router();
 
 /* ROUTER PARA COLLECCION MAIN  */
-router.get('/productos', mainController.landingProducts)
+router.get('/', productsController.landingProducts)
+router.get('/comuna-:comunaID', productsController.comunas)
+router.get('/comuna/local-:idL', productsController.detallesL)
+
+module.exports = router
