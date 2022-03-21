@@ -17,13 +17,7 @@
 .div2 {
     grid-area: 2 / 1 / 12 / 6;
     height: auto;
-    background: url("../images/svg/bg-01.svg");
-    repeat: background-repeat;
-}
-
-.div1 {
-    background: url("../images/svg/bg-01.svg");
-    repeat: background-repeat;
+    background: whitesmoke;
 }
 
 .div3 {
